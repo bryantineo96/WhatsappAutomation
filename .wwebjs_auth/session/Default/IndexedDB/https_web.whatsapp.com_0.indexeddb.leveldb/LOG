@@ -1,0 +1,28 @@
+2025/02/25-11:13:13.015 4414 Reusing MANIFEST C:\Users\SEAFROST\Documents\PROYECTOS NODE JS\WhatsappAutomation\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-011318
+2025/02/25-11:13:13.016 4414 Recovering log #11724
+2025/02/25-11:13:13.041 4414 Reusing old log C:\Users\SEAFROST\Documents\PROYECTOS NODE JS\WhatsappAutomation\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/011724.log 
+2025/02/25-11:13:14.941 6334 Manual compaction at level-0 from '\x00s\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00t\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/02/25-11:15:27.532 4414 Compacting 1@1 + 10@2 files
+2025/02/25-11:15:27.688 4414 Generated table #11760@1: 102340 keys, 2252031 bytes
+2025/02/25-11:15:27.834 4414 Generated table #11761@1: 102676 keys, 2251935 bytes
+2025/02/25-11:15:27.989 4414 Generated table #11762@1: 102522 keys, 2250395 bytes
+2025/02/25-11:15:28.157 4414 Generated table #11763@1: 101986 keys, 2250010 bytes
+2025/02/25-11:15:28.299 4414 Generated table #11764@1: 101791 keys, 2249984 bytes
+2025/02/25-11:15:28.465 4414 Generated table #11765@1: 102446 keys, 2251946 bytes
+2025/02/25-11:15:28.595 4414 Generated table #11766@1: 102404 keys, 2252358 bytes
+2025/02/25-11:15:28.736 4414 Generated table #11767@1: 102448 keys, 2251125 bytes
+2025/02/25-11:15:28.913 4414 Generated table #11768@1: 101536 keys, 2249185 bytes
+2025/02/25-11:15:28.998 4414 Generated table #11769@1: 54900 keys, 1206974 bytes
+2025/02/25-11:15:28.998 4414 Compacted 1@1 + 10@2 files => 21465943 bytes
+2025/02/25-11:15:28.999 4414 compacted to: files[ 0 2 36 21 0 0 0 ]
+2025/02/25-11:15:29.001 4414 Delete type=2 #11675
+2025/02/25-11:15:29.001 4414 Delete type=2 #11676
+2025/02/25-11:15:29.002 4414 Delete type=2 #11677
+2025/02/25-11:15:29.002 4414 Delete type=2 #11678
+2025/02/25-11:15:29.002 4414 Delete type=2 #11679
+2025/02/25-11:15:29.002 4414 Delete type=2 #11680
+2025/02/25-11:15:29.002 4414 Delete type=2 #11681
+2025/02/25-11:15:29.002 4414 Delete type=2 #11682
+2025/02/25-11:15:29.002 4414 Delete type=2 #11683
+2025/02/25-11:15:29.002 4414 Delete type=2 #11684
+2025/02/25-11:15:29.002 4414 Delete type=2 #11727
