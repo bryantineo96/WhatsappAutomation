@@ -136,8 +136,16 @@ app.post("/send-message-single", async (req, res) => {
 
 });
 
+
+/*
 // Iniciar el servidor en el puerto 3000
 app.listen(3000, () => {
   console.log("API REST corriendo en http://localhost:3000");
+  client.initialize();
+});
+*/
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`API REST corriendo en http://localhost:${PORT}`);
   client.initialize();
 });
