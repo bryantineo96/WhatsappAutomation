@@ -6,6 +6,7 @@ const OpenAI = require("openai");
 
 const cron = require('node-cron');
 
+
 cron.schedule('* * * * *', () => {
   console.log('Ejecutando tarea cada minuto:', new Date().toLocaleString());
 });
