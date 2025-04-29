@@ -52,7 +52,18 @@ const wwebVersion = '2.2407.3';
 
 const client = new Client({
   authStrategy: new LocalAuth(), // your authstrategy here
-
+puppeteer: {
+        headless: true, // Asegúrate que esté en true para servidor
+        args: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-dev-shm-usage', // Útil si tienes problemas con /dev/shm pequeño
+            '--disable-accelerated-2d-canvas',
+            '--no-first-run',
+            '--no-zygote',
+            '--single-process', // Puede o no ser necesario
+            '--disable-gpu' // A veces ayuda en servidores sin GPU
+        ],
   webVersionCache: {
     type: 'remote',
     remotePath: `https://raw.githubusercontent.com/wppconnect-team/wa-version/main/html/${wwebVersion}.html`,
