@@ -52,7 +52,7 @@ const wwebVersion = '2.2407.3';
 
 const client = new Client({
   authStrategy: new LocalAuth(), // your authstrategy here
-puppeteer: {
+    puppeteer: {
         headless: true, // Asegúrate que esté en true para servidor
         args: [
             '--no-sandbox',
@@ -64,6 +64,9 @@ puppeteer: {
             '--single-process', // Puede o no ser necesario
             '--disable-gpu' // A veces ayuda en servidores sin GPU
         ],
+        // Opcional: Especificar la ruta a un Chrome/Chromium instalado manualmente
+        // executablePath: '/usr/bin/chromium-browser'
+    },
   webVersionCache: {
     type: 'remote',
     remotePath: `https://raw.githubusercontent.com/wppconnect-team/wa-version/main/html/${wwebVersion}.html`,
